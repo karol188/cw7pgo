@@ -1,11 +1,20 @@
 public class Main2 {
     public static void main(String[] args) {
-        Animal dog = new Dog();
         Animal cat = new Cat();
-        Animal cow = new Cow();
+        Animal lion = new Lion();
+        Animal dog = new Dog();
+        Animal wolf = new Wolf();
+
+        cat.makeNoise();
+        cat.roam();
+
+        lion.makeNoise();
+        lion.roam();
 
         dog.makeNoise();
-        cat.makeNoise();
-        cow.makeNoise();
+        dog.roam();
+
+        wolf.makeNoise();
+        wolf.roam();
     }
 }
